@@ -1,8 +1,8 @@
-*{
+/* *{
   background: #000 !important;
   color: #0f0 !important;
   outline: solid #f00 1px !important;
-}
+} */
 
 /* ==========================================================================
    IMPORT GOOGLE FONTS
@@ -994,9 +994,11 @@ button:focus {
    Footer section
    ========================================================================== */
 #footer-Content {
-  padding-top: 130px;
+  /* padding-top: 130px; */
+  padding-left: 20px;
+  padding-top: 20px;
   background: #180e29; }
-  #footer-Content .footer-logo img {
+  /* #footer-Content .footer-logo img {
     padding-top: 70px; }
   #footer-Content .form-control:focus {
     outline: none;
@@ -1019,18 +1021,8 @@ button:focus {
   #footer-Content .widget .subscribe-area {
     position: relative;
     height: 40px;
-    margin-top: 18px; }
-    #footer-Content .widget .subscribe-area input[type=email] {
-      background: #24153c;
-      border: 1px solid #fff;
-      color: #e2e2e2;
-      font-size: 14px;
-      font-style: italic;
-      height: 38px;
-  
+    margin-top: 18px; } */
     
-    }
-
     .widget{
 
       margin-right: 40px;
@@ -1043,6 +1035,11 @@ button:focus {
       height: auto;
     }
 
+    .flex-class{
+      display: flex;
+      flex-wrap: wrap;
+
+    }
 
 
 
@@ -1217,6 +1214,6 @@ button:focus {
 
 
 
-.payment-width {
+/* .payment-width {
   width: 500px;
-}
+} */
